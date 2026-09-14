@@ -6,24 +6,6 @@
 <title>BTP Kelas I Medan — Dashboard Rampcheck</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
-   <script>
-(function () {
-
-    const AUTH_KEY = 'BTP_MEDAN_AUTH_SESSION_V17';
-
-    let session = null;
-
-    try {
-        session = sessionStorage.getItem(AUTH_KEY);
-    } catch (e) {
-        session = null;
-    }
-
-    if (!session) {
-        window.location.replace('index.html');
-        return;
-    }
-
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:'Segoe UI',system-ui,sans-serif;background:#EEF2F7;min-height:100vh;text-transform:capitalize}
